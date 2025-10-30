@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-6(B)</title>
+
+    
+    <style>
+
+        .main {
+            min-height: 100vh;
+            min-width: auto;
+            background-color: #F4F4F9;
+            margin: auto;
+        }
+
+        .tbar {
+            align-content: center;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            justify-content: center;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 80px;  
+            padding: 20px;    
+            margin: auto;    
+            align-content: flex-start;  
+            justify-content: center;
+
+            }
+
+        .flex-container > div {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+
+            }
+        
+        .flex-container  img:hover {
+	    transform: scale(1.05);
+	    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+
+        .flex-container img {
+        width: 420px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="tbar">
+        <h1>Responsive Photo Gallery Using Flex</h1>
+        </div>
+
+       
+            <div class="flex-container">
+            <div class="card">
+                <img src="image/Cute Wallpaper👑.jpg" alt="Image 1" style="width:100%; height:auto; border-radius: 12px;">
+            </div>
+            <div class="card">
+                <img src="image/Kanha_2.jpg" alt="Image 2" style="width:100%; height:auto; border-radius: 12px;">
+            </div>
+            <div class="card">
+                <img src="image/Kanha_3.jpg" alt="Image 3" style="width:100%; height:auto; border-radius: 12px;">
+            </div>
+            <div class="card">
+                <img src="image/Cute Wallpaper👑.jpg" alt="Image 4" style="width:100%; height:auto; border-radius: 12px;">
+            </div>
+            <div class="card">
+                <img src="image/Cute Wallpaper👑.jpg" alt="Image 5" style="width:100%; height:auto; border-radius: 12px;">
+            </div>
+            <div class="card">
+                <img src="image/Kanha_2.jpg" alt="Image 6" style="width:100%; height:auto; border-radius: 12px;">
+             </div>
+             <div class="card">
+                <img src="image/Kanha_3.jpg" alt="Image 7" style="width:100%; height:auto; border-radius: 12px;">
+             </div>
+             <div class="card">
+                <img src="image/Kanha_3.jpg" alt="Image 8" style="width:100%; height:auto; border-radius: 12px;">
+             </div>
+
+    
+
+</body>
+</html>
